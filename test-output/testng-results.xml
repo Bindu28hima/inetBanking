@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBankingV1" duration-ms="58845" started-at="2020-11-23T14:54:47Z" finished-at="2020-11-23T14:55:46Z">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="58845" started-at="2020-11-23T14:54:47Z" finished-at="2020-11-23T14:55:46Z">
+      <class name="com.inetbanking.testCases.EditCustomer">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.EditCustomer@40ef3420]" name="setup" is-config="true" duration-ms="45434" started-at="2020-11-23T14:54:47Z" finished-at="2020-11-23T14:55:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="editCust()[pri:0, instance:com.inetbanking.testCases.EditCustomer@40ef3420]" name="editCust" duration-ms="12528" started-at="2020-11-23T14:55:33Z" finished-at="2020-11-23T14:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCust -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.EditCustomer@40ef3420]" name="tearDown" is-config="true" duration-ms="685" started-at="2020-11-23T14:55:45Z" finished-at="2020-11-23T14:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testCases.EditCustomer -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- InetBankingV1 -->
+</testng-results>
